@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jawad Ali Portfolio</title>
+    <meta name="description" content="Jawad Ali's professional portfolio showcasing skills in frontend development, web design, and digital marketing.">
+    <meta name="keywords" content="Jawad Ali, frontend developer, portfolio, web design, digital marketing">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #fff;
+            background-color: #181818;
+        }
+
+        .navbar {
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .hero-section {
+            background-color: #111;
+            padding: 100px 0;
+            color: #fff;
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        .hero-section h1,
+        .hero-section h2,
+        .hero-section h3 {
+            margin: 20px 0;
+        }
+
+        .hero-section p {
+            margin: 20px 0;
+            font-size: 1.2em;
+        }
+
+        .hero-section .btn {
+            margin: 10px;
+        }
+
+        .about-section,
+        .services-section,
+        .portfolio-section,
+        .contact-section {
+            padding: 60px 0;
+        }
+
+        .about-section h2,
+        .services-section h2,
+        .portfolio-section h2,
+        .contact-section h2 {
+            color: #cc00ff;
+        }
+
+        .services-section {
+            background-color: #222;
+        }
+
+        .footer-section {
+            background-color: #000;
+            padding: 20px 0;
+            color: #fff;
+        }
+
+        .social-icons a {
+            color: #cc00ff;
+            margin: 0 10px;
+            font-size: 1.5em;
+        }
+
+        .btn {
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #cc00ff;
+            border-color: #cc00ff;
+        }
+
+        .about-section img {
+            float: left;
+            margin-right: 20px;
+            max-width: 50%;
+        }
+
+        .contact-info i {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero-section">
+        <div class="container text-center text-white" data-aos="fade-up" data-aos-duration="1000">
+            <h1>Welcome to My Portfolio</h1>
+            <h2 class="font-weight-bold">Jawad Ali</h2>
+            <h3>And I'm a <span class="text-primary">Frontend Developer</span></h3>
+            <p>I specialize in creating dynamic and beautiful web pages. I have been in the field for nearly 1 years, and have been loving every minute of it. I am a blogger, entrepreneur, and overall thinker.</p>
+            <a href="blue professional modern CV resume.png" class="btn btn-primary">Download CV</a>
+            <div class="social-icons mt-4">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="about-section py-5">
+        <div class="container" data-aos="fade-right" data-aos-duration="1000">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="B612_20240514_144119_578.jpg" class="img-fluid" alt="Jawad Ali Portrait">
+                </div>
+                <div class="col-md-6">
+                    <h2>About Me</h2>
+                    <h3>Frontend Developer</h3>
+                    <p>I am Jawad Ali, a passionate frontend developer with a keen eye for detail and a knack for designing visually appealing websites. My journey in web development started during my college days, and since then, I've been dedicated to honing my skills and staying updated with the latest industry trends.</p>
+                    <a href="#" class="btn btn-secondary">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services-section py-5 bg-dark text-white">
+        <div class="container" data-aos="fade-left" data-aos-duration="1000">
+            <h2 class="text-center mb-5">My Services</h2>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div class="service-box">
+                        <h3>Web Development</h3>
+                        <p>I build responsive and dynamic websites that are tailored to meet your business needs. From landing pages to complex web applications, I deliver high-quality solutions.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="service-box">
+                        <h3>Graphic Design</h3>
+                        <p>With a focus on creativity and innovation, I create visually stunning graphics that capture the essence of your brand and engage your audience effectively.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="service-box">
+                        <h3>Digital Marketing</h3>
+                        <p>I help businesses enhance their online presence through targeted digital marketing strategies, including SEO, social media marketing, and content creation.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio-section py-5">
+        <div class="container" data-aos="zoom-in" data-aos-duration="1000">
+            <h2 class="text-center mb-5">Latest Projects</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="Screenshot 2024-06-16 175828.jpg" class="img-fluid" alt="Project 1">
+                </div>
+                <div class="col-md-4">
+                    <img src="gg.jpg" class="img-fluid" alt="Project 2">
+                </div>
+                <div class="col-md-4">
+                    <img src="Screenshot 2024-06-16 175828.jpg" class="img-fluid" alt="Project 3">
+                </div>
+                <div class="col-md-4">
+                    <img src="ss.jpg" class="img-fluid" alt="Project 4">
+                </div>
+                <div class="col-md-4">
+                    <img src="gg2.jpg" style="height: 136px; width: 100%;" class="img-fluid" alt="Project 5">
+                </div>
+                <div class="col-md-4">
+                    <img src="ss.jpg" class="img-fluid" alt="Project 6">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section py-5 bg-dark text-white">
+        <div class="container" data-aos="fade-up" data-aos-duration="1000">
+            <h2 class="text-center mb-5">Contact Me</h2>
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    <div class="contact-info mt-3">
+                        <p><i class="fas fa-phone"></i> 03363230159</p>
+                        <p><i class="fas fa-envelope"></i> email@example.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-section text-center">
+        <div class="container">
+            <p>&copy; 2024 Jawad Ali. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+    <script>
+        AOS.init();
+
+        (function() {
+            emailjs.init("YOUR_USER_ID");
+        })();
+
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", {
+                from_name: document.getElementById('name').value,
+                from_email: document.getElementById('email').value,
+                message: document.getElementById('message').value
+            }).then(function(response) {
+                alert('Message sent successfully!');
+            }, function(error) {
+                alert('Failed to send message, please try again later.');
+            });
+        });
+    </script>
+</body>
+</html>
